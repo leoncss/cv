@@ -1,0 +1,45 @@
+/* Below are tag selectors */
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #f08a5d;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #00adb5;
+  font-size: 50px;
+}
+
+h3 {
+  color: #ff9a00;
+}
+
+img:hover {                /*change of state when the cursor hovers over the img, : implies a peusdo class*/
+  background-color: gold;
+}
+
+/*below examples of a class selectors */
+
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/*below is an exmaple of ID selectors,   ID is unique but class can be used on a group of tags*/
+
+#subhead {
+  color: red;
+}

@@ -6,16 +6,36 @@
 <head>
   <meta charset="utf-8">
   <title>Leon's Personal Site</title>
-</head>
+  <link rel="stylesheet" href="css/styles.css">
 
+  <!-- include internal css code below
+  <style>
+    body {
+      background-color: #eaf6f6;
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: #f08a5d;
+      border-width: 5px;
+      width: 5%;
+    }
+  </style> -->
+
+
+</head>
+<!-- the style attribute below is called an inline CSS -->
+<!--body style="background-color: #eaf6f6";-->
 <body>
   <table cellspacing="20">
     <tr>
-      <td><img src="https://media.licdn.com/dms/image/C5603AQHoM8HHxI7Pgg/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=EvyO_oyxzJRpJJQJZSkTqIpd32tixb0ETQjEtKm-_eE" alt="Leon Profile Picture"></td>
+      <td><img class="circular" src="https://media.licdn.com/dms/image/C5603AQHoM8HHxI7Pgg/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=EvyO_oyxzJRpJJQJZSkTqIpd32tixb0ETQjEtKm-_eE" alt="Leon Profile Picture"></td>
       <td>
         <h1> Leon Cai</h1>
         <p><em><strong>Technical Analyst</strong> at <a href="https://www.nttdatasolutions.com.sg" target="_blank">NTT Data Business Solutions Singapore</a></em>
         </p>
+        <p>I see what's mine and take it</p>
         <!--<h3>Technical Analyst at NTT Data Business Solutions Singapore</h3>-->
         <p>
           I have an interest in automating processes via software development because I believe that manual and
@@ -38,14 +58,16 @@
 &#9733;
   </p>
   -->
-  <hr size="2" color="maroon" />
-  <h3><strong>Education</strong></h3>
+  <hr>
+  <h3 id="subhead"><strong>Education</strong></h3>
   <!-- <ul></ul> is an unordered list whereas <ol></ol> is an ordered list -->
   <ul>
     <li>first item</li>
     <li>second item</li>
     <li>third item</li>
   </ul>
+  <img class="bacon" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/155/bacon_1f953.png" alt="Bacon image">
+  <img class="broccoli circular" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/155/broccoli_1f966.png" alt="Broccoli image">
   <hr>
   <h3>Work Experience</h3>
   <table border="1">
